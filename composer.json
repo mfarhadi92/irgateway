@@ -1,0 +1,61 @@
+{
+  "name": "viratef/gateway",
+  "homepage": "https://github.com/mfarhadi92/gateway",
+  "description": "A Laravel package for connecting to all Iraninan payment  gateways",
+  "keywords": [
+    "laravel",
+    "iran",
+    "payment",
+    "gateway",
+    "port",
+    "bank",
+    "pay",
+    "mellat",
+    "saman",
+    "pasargad",
+    "parsian",
+    "sadad",
+    "meli",
+    "payline",
+    "jahanpay",
+    "zarinpal",
+    "iranian-banks",
+    "persian-banks",
+    "pardakht",
+    "dargah",
+    "shaparak",
+    "poolport",
+    "ipay",
+    "asan-pardakht",
+    "pay-ir",
+    "paypal"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mehdi Farhadi",
+      "email": "mfarhadiir@gmail.com"
+    }
+  ],
+  "require": {
+    "nesbot/carbon": "^2.16",
+    "paypal/rest-api-sdk-php": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Viratef\\Gateway\\": "src/",
+      "Viratef\\Gateway\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Viratef\\Gateway\\GatewayServiceProvider"
+      ],
+      "aliases": {
+        "Gateway": "Viratef\\Gateway\\Gateway"
+      }
+    }
+  }
+}
