@@ -1,6 +1,6 @@
 {
-  "name": "viratef/gateway",
-  "homepage": "https://github.com/mfarhadi92/gateway",
+  "name": "viratef/irgateway",
+  "homepage": "https://github.com/mfarhadi92/irgateway",
   "description": "A Laravel package for connecting to all Iraninan payment  gateways",
   "keywords": [
     "laravel",
