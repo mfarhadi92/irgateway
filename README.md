@@ -18,7 +18,7 @@ Run below statements on your terminal :
 
 STEP 1 : 
 
-    composer require mfarhadi92/gateway
+    composer require viratef/gateway
     
 STEP 2 : Add `provider` and `facade` in config/app.php
 
